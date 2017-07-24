@@ -3,7 +3,7 @@ require 'shotgun'
 
 
 get "/" do
-  erb:"index.html"
+    erb:"index.html"
   end
 
 
