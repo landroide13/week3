@@ -13,28 +13,28 @@ console.log("Hour in a Year : " + yearHours);
 //How many minutes are there in a decade?
 
 var minutesDay = 60 * 24;
-var MinutesMonth = minutesDay * 4;
-var MinutesYear = MinutesMonth * 12;
-var MinutesDecade = MinutesYear * 10;
+var minutesMonth = minutesDay * 4;
+var minutesYear = minutesMonth * 12;
+var minutesDecade = minutesYear * 10;
 
-console.log("Minutes in a Decade :"+MinutesDecade);
+console.log("Minutes in a Decade :"+minutesDecade);
 
 
 //How many seconds old are you?
 
-var SecondsDay = minutesDay * 60;
-var SecondsMonth = SecondsDay * 4;
-var SecondsYear = SecondsMonth * 12;
-var SecondsOld = SecondsYear * 36;
+var secondsDay = minutesDay * 60;
+var secondsMonth = secondsDay * 4;
+var secondsYear = secondsMonth * 12;
+var secondsOld = secondsYear * 36;
 
-console.log("Im "+ SecondsOld + " Seconds old");
+console.log("Im "+ secondsOld + " Seconds old");
 
 //If Bob is 1246 million seconds old, how old is Bob in years?
 
-var secondsOldBob = 124600000;
-var BobYears = SecondsOldBob / SecondsYear;
+var ysBob = 124600000;
+var bobYears = ysBob / secondsYear;
 
-console.log("Bob is "+BobYears+" years old");
+console.log("Bob is "+bobYears+" years old");
 
 //-------------------- task2 ---------------------------------
 
