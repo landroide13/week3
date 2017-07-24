@@ -119,14 +119,15 @@ var selena = {"name":"Selena","age":24}
 var victor = {"name":"Victor","age":27}
 var james = {"name":"James","age":47}
 
-function display(obj){
-    console.log(Object.keys(obj));
-    console.log(Object.keys(obj));
+function toSentence(obj){
+ return  obj.name+" is "+obj.age+" years old."
 }
 
-display(justin)
-display(selena)
-display(victor)
-display(james)
+//console.log(Object.keys(obj)+" "+Object.values(obj));
+
+console.log(toSentence(justin))
+console.log(toSentence(selena))
+console.log(toSentence(victor))
+console.log(toSentence(james))
 
 
