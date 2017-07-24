@@ -51,7 +51,67 @@ fullName(firstName,secondName)
 
 //-------------------- task4 ----------------------------------
 
+var number = [1,2,3,4,5,6,7,8,9,10]
 
+for(i = 0 ; i <= number.length ; i++){
+  console.log(number[i])
+}
+
+
+number.forEach(function(i) {
+   console.log(i) 
+}, this);
+
+
+number.forEach(function(i){
+  if(i > 5){
+  console.log(i)
+  }
+},this);
+
+number.push(11)
+
+for(i = 0 ; i <= number.length ; i++){
+  console.log(number[i])
+}
+
+function invert(arr){
+  console.log(arr.slice().reverse());
+}
+
+invert(number)
+
+bigNumbers = [100,200,300,400,500]
+
+allNumber = number.concat(bigNumbers);
+
+for(i = 0 ; i <= allNumber.length ; i++){
+  console.log(allNumber[i])
+}
+
+invert(allNumber);
+
+//------------------------ B1 ------------------------------
+
+var myDog = {
+  "name":"vigo",
+  "legs":6,
+  "tails":7,
+  "friends":["all"]
+};
+
+
+var rating = {};
+
+rating["biber"] = 0;
+rating["Charlie"] = 7;
+rating["Drake"] = 8;
+rating["White"] = 10;
+
+console.log(Object.keys(rating));
+console.log(Object.values(rating));
+
+//------------------------ B2 -------------------------------
 
 
 
