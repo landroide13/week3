@@ -114,13 +114,19 @@ console.log(Object.values(rating));
 //------------------------ B2 -------------------------------
 
 
+var justin = {"name":"Justin","age":23}
+var selena = {"name":"Selena","age":24}
+var victor = {"name":"Victor","age":27}
+var james = {"name":"James","age":47}
 
+function display(obj){
+    console.log(Object.keys(obj));
+    console.log(Object.keys(obj));
+}
 
-
-
-
-
-
-
+display(justin)
+display(selena)
+display(victor)
+display(james)
 
 
