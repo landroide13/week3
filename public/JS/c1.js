@@ -17,15 +17,16 @@ console.log("h1 with class name",h1)
 var items = document.getElementsByClassName("item")
 
 console.log("items: ", items);
-console.log("item 0: ", items[0]);
-console.log("item 0's innerHTML: ", items[0].innerHTML);
+/*console.log("item 0: ", items[0]);
+console.log("item 0's innerHTML: ", items[0].innerHTML.toUpperCase());
 console.log("item 1's innerHTML: ", items[1].innerHTML);
-console.log("item 2's innerHTML: ", items[2].innerHTML);
+console.log("item 2's innerHTML: ", items[2].innerHTML); */
 
 for (var i = 0 ; i < items.length ; i++){
-     var item = items[i]
-     item = items.innerHTML.toUpperCase()
+  var item = items[i]
+  console.log(item.innerHTML.toUpperCase())
 }
+
 
 
 
