@@ -1,7 +1,5 @@
 'use strict'
 
-
-
 let h1 = document.getElementById("heading")
 
 console.log("h1: ", h1);

@@ -54,7 +54,7 @@ fullName(firstName,secondName)
 
 let number = [1,2,3,4,5,6,7,8,9,10]
 
-for(i = 0 ; i <= number.length ; i++){
+for(let i = 0 ; i <= number.length ; i++){
   console.log(number[i])
 }
 
@@ -72,7 +72,7 @@ number.forEach((i)=>{
 
 number.push(11)
 
-for(i = 0 ; i <= number.length ; i++){
+for(let i = 0 ; i <= number.length ; i++){
   console.log(number[i])
 }
 
@@ -82,11 +82,11 @@ function invert(arr){
 
 invert(number)
 
-bigNumbers = [100,200,300,400,500]
+let bigNumbers = [100,200,300,400,500]
 
-allNumber = number.concat(bigNumbers);
+let allNumber = number.concat(bigNumbers);
 
-for(i = 0 ; i <= allNumber.length ; i++){
+for(let i = 0 ; i <= allNumber.length ; i++){
   console.log(allNumber[i])
 }
 
