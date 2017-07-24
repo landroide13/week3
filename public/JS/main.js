@@ -120,10 +120,8 @@ var victor = {"name":"Victor","age":27}
 var james = {"name":"James","age":47}
 
 function toSentence(obj){
- return  obj.name+" is "+obj.age+" years old."
+ return `${obj.name} is ${obj.age} years old.`
 }
-
-//console.log(Object.keys(obj)+" "+Object.values(obj));
 
 console.log(toSentence(justin))
 console.log(toSentence(selena))

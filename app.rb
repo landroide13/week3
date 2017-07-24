@@ -6,7 +6,9 @@ get "/" do
 end
 
 
-
+get "/c1" do
+  erb:"c1.html"
+end
 
 
 
