@@ -1,5 +1,5 @@
 
-console.log("Hello MF");
+console.log("Hello");
 alert("Hello");
 
 
